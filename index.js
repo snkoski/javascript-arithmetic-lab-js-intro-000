@@ -23,7 +23,8 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return parseInt(n);
+  var i = parseInt(n);
+  return i;
 }
 
 /*function preserveDecimal(n) {
